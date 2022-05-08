@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #10c9c3;
+    transition: 0.5s;
+}
+button {
+    height: 55px;
+    width: 180px;
+    text-align: center;
+    color: white;
+    background-color: #10c9c3;
+    border: none;
+    cursor:  pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+p {
+    color: #858585;
+}
+/* nav */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    line-height: 68px;
+}
+.menu>ul>li {
+    list-style-type: none;
+    float: right;
+    padding-left: 40px;
+    font-weight: 600;
+    
+}
+.menu01-logo>a>img {
+    vertical-align: bottom;
+}

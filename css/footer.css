@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    color: white;
+    background-color: #141414;
+    height: 285px;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.footer li {
+    list-style-type: none;
+    
+}
+.footer a {
+    color: white;
+}

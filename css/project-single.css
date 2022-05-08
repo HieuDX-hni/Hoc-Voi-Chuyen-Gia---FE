@@ -1,0 +1,93 @@
+.content-project {
+    display: flex;
+    padding: 0 5%;
+    flex-flow: row wrap;
+    
+}
+.content01 {
+    background-color: #f6f6f6;
+    width: 50%;
+    line-height: 1.7;
+}
+.content02 {
+    background-color: #e6e6e6;
+    width: 50%;
+    overflow: hidden;
+}
+.content02 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content01_1 {
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 68%;
+}
+.content01_1 span {
+    font-weight: 600;
+    color: black;
+}
+.content01_1 h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+/* link */
+.content-link {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    height: 100px;
+    align-items: center;
+    
+}
+.previous, .next {
+    width: 20%;
+    cursor: pointer;
+}
+.next {
+    text-align: right;
+}
+.mid {
+    font-size: 25px;
+}
+@media only screen and (max-width: 414px) {
+    .menu {
+        padding: 0 3%;
+    }
+
+
+}
+@media only screen and (max-width: 875px) {
+    .footer {
+        height: auto;
+    }
+    .footer01 , .footer02 {
+        width: 100%;
+    }
+    .footer ul {
+        padding: 0;
+    }
+    .about4con {
+        width: 50%;
+    }
+    .content01_1 {
+        position: unset;
+        width: 100%;
+        padding: 10px;
+    }
+    .content01, .content02 {
+        width: 100%;
+    }
+    .content-link {
+        font-size: 10px;
+    }
+}
+@media only screen and (min-width: 875px) and (max-width: 1400px) {
+    .content01_1 {
+        position: unset;
+        padding: 15px;
+    }
+}

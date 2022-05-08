@@ -1,0 +1,108 @@
+/* content01 */
+.noidung01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+    background-image: url(../img/img-contents/15.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+ 
+
+}
+
+.noidung01 ::after {
+
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.noidung01_01 {
+   
+    width: 40%;
+    text-align: center;
+    color: white;
+    
+}
+.noidung01_01 p {
+    color: white;
+}
+/* about */
+.aboutMe {
+    display: flex;
+    flex-flow: row wrap;
+   
+    
+}
+.aboutMe-01 {
+    width: 50%;
+}
+.aboutMe-02 {
+    width: 50%;
+    background-color: rgb(246 246 246);
+}
+.aboutMe-01 img {
+    width: 100%;
+    height: 100%;
+}   
+.about1-chil {
+    margin: 100px 0 0 50px;
+    line-height: 1.5;
+}
+/* need */
+.need {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.needProject {
+    text-align: center;
+}
+.needProject h2 {
+    font-size: 36px;
+}
+@media only screen and (max-width: 414px) {
+    .menu {
+        padding: 0 3%;
+    }
+    .chuky10 {
+        width: 100%;
+    }
+
+
+
+}
+@media only screen and (max-width: 863px) {
+    .footer {
+        height: auto;
+    }
+    .footer01 , .footer02 {
+        width: 100%;
+    }
+    .footer ul {
+        padding: 0;
+    }
+    .aboutMe-01, .aboutMe-02 {
+        width: 100%;
+    }
+    .about1-chil {
+        margin: 10px;
+    }
+    .about3 {
+        font-size: 12px;
+    }
+    .chuky10 {
+        width: 50%;
+    }
+
+}

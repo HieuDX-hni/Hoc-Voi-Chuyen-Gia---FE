@@ -1,0 +1,137 @@
+/* about4 */
+.about4 {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    overflow: hidden;
+}
+.about4con {
+    width: 25%;
+    height: 350px;
+    position: relative;
+}
+
+.about4con> img {
+    width: 100%;
+    height: 380px;
+}
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #21bfb9;
+  }
+  
+  .about4con:hover .overlay {
+    opacity: 0.8;
+  }
+  
+  .text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .loadmore {
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      line-height: 68px;
+      cursor: pointer;
+      background-color: #f5f5f5;
+      color: #858585;
+      
+  }
+  .loadmore h2 {
+      font-size: 18px;
+  }
+  /* footer */
+  .footer {
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    color: white;
+    background-color: #141414;
+    height: 285px;
+    align-items: center;
+}
+.footer li {
+    list-style-type: none;
+    
+}
+.footer a {
+    color: white;
+}
+/* contact */
+.contact {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 100px 5%;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+.contact-info {
+    width: 40%;
+}
+.ykien {
+    width: 60%;
+}
+.map {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+/* contact - form */
+.ykien {
+    padding: 0;
+}
+.ykien-form {
+    width: 100%;
+}
+button {
+    float: left;
+}
+.contact-info span {
+    font-weight: 600;
+    color: #141414;
+}
+.contact-info h2 {
+    margin-top: 0;
+    font-size: 36px;
+}
+@media only screen and (max-width: 414px) {
+    .menu {
+        padding: 0 3%;
+    }
+
+
+}
+@media only screen and (max-width: 863px) {
+    .footer {
+        height: auto;
+    }
+    .footer01 , .footer02 {
+        width: 100%;
+    }
+    .footer ul {
+        padding: 0;
+    }
+    .about4con {
+        width: 50%;
+    }
+    .contact-info {
+        width: 100%;
+    }
+    .ykien {
+        width: 100%;
+    }
+}

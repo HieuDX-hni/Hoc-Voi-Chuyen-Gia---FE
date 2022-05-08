@@ -1,0 +1,43 @@
+.about3con {
+    width: 25%;
+}
+@media only screen and (max-width: 863px) {
+    .header2 {
+        top: 0;
+        left: 0;
+        width: 90%;
+        margin: 2%;
+    }
+    .about4 {
+        height: auto;
+    }
+    .about3 {
+        font-size: 12px;
+    }
+    .about4con {
+        width: 100%;
+        height: auto;
+       
+    }
+    .about4con>img {
+        height: 100%;
+    }
+    .our2con {
+        width: 50%;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer01 , .footer02 {
+        width: 100%;
+    }
+    .footer ul {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 1240px) and (min-width: 863px){
+    .header2 {
+        left: 5%;
+        width: 55%;
+    }
+}
